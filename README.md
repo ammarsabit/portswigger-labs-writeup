@@ -8,7 +8,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 
 | No | Date       | Topic          | Lab Title                                   | Difficulty  | Writeup Link |
 |----|------------|----------------|---------------------------------------------|-------------|--------------|
-| 1  | 2025-09-26 | API Testing    | Exploiting an API endpoint using documentation | Apprentice | N/A |
+| 1  | 2025-09-26 | API Testing    | Exploiting an API endpoint using documentation | Apprentice | N/A ||----|------------|----------------|---------------------------------------------|-------------|--------------|
+| 2  | 2025-09-26 | API Testing    | Finding and exploiting an unused API endpoint | Practitioner | N/A |
 
 ## Categories Covered
 - **API Testing**: 1 lab

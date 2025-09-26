@@ -1,1 +1,2 @@
 2025-09-26 | Exploiting an API endpoint using documentation | APPRENTICE | used the api documentation to delete the user record
+2025-09-26 | Finding and exploiting an unused API endpoint | PRACTITIONER | exploit a hidden API endpoint to order a product
