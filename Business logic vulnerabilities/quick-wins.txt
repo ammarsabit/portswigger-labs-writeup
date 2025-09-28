@@ -1,0 +1,1 @@
+2025-09-28 | Excessive trust in client-side controls | APPRENTICE | changing the price of the price in the middle of client and server

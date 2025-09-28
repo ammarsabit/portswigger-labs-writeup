@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-4-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--09--28-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-5-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--09--28-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -12,10 +12,12 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 2  | 2025-09-26 | API Testing    | Finding and exploiting an unused API endpoint | Practitioner | N/A |
 | 3  | 2025-09-27 | API Testing    | Exploiting a mass assignment vulnerability | Practitioner | N/A |
 | 4  | 2025-09-28 | Information Disclosure    | Information disclosure in error messages | Apprentice | N/A |
+| 5  | 2025-09-28 | Business logic vulnerabilities | Excessive trust in client-side controls | Apprentice | N/A |
 
 ## Categories Covered
 - **API Testing**: 3 lab
 - **Information Disclosure**: 1 lab
+- **Business logic vulnerabilities**: 1 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
