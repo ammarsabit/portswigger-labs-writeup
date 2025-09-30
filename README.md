@@ -14,7 +14,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 4  | 2025-09-28 | Information Disclosure    | Information disclosure in error messages | Apprentice | N/A |
 | 5  | 2025-09-28 | Business logic vulnerabilities | Excessive trust in client-side controls | Apprentice | N/A |
 | 6  | 2025-09-30 | Business logic vulnerabilities | High-level logic vulnerability | Apprentice | N/A |
-| 7  | 2025-09-31 | Authentication vulnerabilities | Username enumeration via different responses | Apprentice | N/A |
+| 7  | 2025-09-30 | Authentication vulnerabilities | Username enumeration via different responses | Apprentice | N/A |
+| 7  | 2025-09-30 | Authentication vulnerabilities | Username enumeration via subtly different responses | Apprentice | N/A |
 
 ## Categories Covered
 - **API Testing**: 3 lab
