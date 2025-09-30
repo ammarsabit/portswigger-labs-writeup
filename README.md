@@ -15,9 +15,14 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 5  | 2025-09-28 | Business logic vulnerabilities | Excessive trust in client-side controls | Apprentice | N/A |
 | 6  | 2025-09-30 | Business logic vulnerabilities | High-level logic vulnerability | Apprentice | N/A |
 | 7  | 2025-09-30 | Authentication vulnerabilities | Username enumeration via different responses | Apprentice | N/A |
-| 8  | 2025-09-30 | Authentication vulnerabilities | Username enumeration via subtly different responses | Apprentice | N/A |
+| 8  | 2025-09-30 | Authentication vulnerabilities | Username enumeration via subtly different responses | Practitioner | N/A |
 | 9  | 2025-09-30 | Authentication vulnerabilities | 2FA simple bypass | Apprentice | N/A |
 | 10  | 2025-09-30 | Authentication vulnerabilities | Password reset broken logic | Apprentice | N/A |
+
+## Level progress
+- **Apprentice**: 7 of 59
+- **Practitioner**: 3 of 171
+- **Expert**: 0 of 40
 
 ## Categories Covered
 - **API Testing**: 3/5 lab
