@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-9-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--09--31-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-10-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--09--31-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -17,12 +17,13 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 7  | 2025-09-30 | Authentication vulnerabilities | Username enumeration via different responses | Apprentice | N/A |
 | 8  | 2025-09-30 | Authentication vulnerabilities | Username enumeration via subtly different responses | Apprentice | N/A |
 | 9  | 2025-09-30 | Authentication vulnerabilities | 2FA simple bypass | Apprentice | N/A |
+| 10  | 2025-09-30 | Authentication vulnerabilities | Password reset broken logic | Apprentice | N/A |
 
 ## Categories Covered
 - **API Testing**: 3/5 lab
 - **Information Disclosure**: 1/5 lab
 - **Business logic vulnerabilities**: 2/11 lab
-- **Authentication vulnerabilities**: 3/14 lab
+- **Authentication vulnerabilities**: 4/14 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
