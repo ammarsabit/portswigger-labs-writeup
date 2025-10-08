@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-15-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--6-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-16-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--8-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -23,10 +23,11 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 13  | 2025-09-30 | Information disclosure | Information disclosure on debug page | Apprentice | N/A |
 | 14  | 2025-09-30 | Information disclosure | Source code disclosure via backup files | Apprentice | N/A |
 | 15  | 2025-09-30 | Information disclosure | Information disclosure in version control history | Apprentice | N/A |
+| 16  | 2025-09-30 | Server-side template injection | Basic server-side template injection | Practitioner | N/A |
 
 ## Level progress
 - **Apprentice**: 15 of 59
-- **Practitioner**: 4 of 171
+- **Practitioner**: 5 of 171
 - **Expert**: 0 of 40
 
 ## Categories Covered
@@ -34,6 +35,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Information Disclosure**: 5/5 lab
 - **Business logic vulnerabilities**: 2/11 lab
 - **Authentication vulnerabilities**: 5/14 lab
+- **Server-side template injection**: 1/7 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
