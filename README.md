@@ -23,7 +23,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 13  | 2025-09-30 | Information disclosure | Information disclosure on debug page | Apprentice | N/A |
 | 14  | 2025-09-30 | Information disclosure | Source code disclosure via backup files | Apprentice | N/A |
 | 15  | 2025-09-30 | Information disclosure | Information disclosure in version control history | Apprentice | N/A |
-| 16  | 2025-09-30 | Server-side template injection | Basic server-side template injection | Practitioner | N/A |
+| 16  | 2025-09-30 | Server-side template injection | Basic server-side template injection | Practitioner | [wrieup](https://github.com/ammarsabit/portswigger-labs-writeup/blob/main/ssti/basic-server-side-template-injection.md) |
 
 ## Level progress
 - **Apprentice**: 15 of 59
