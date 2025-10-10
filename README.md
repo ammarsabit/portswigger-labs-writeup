@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-19-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--9-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-20-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--10-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -25,12 +25,13 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 15  | 2025-09-30 | Information disclosure | Information disclosure in version control history | Apprentice | N/A |
 | 16  | 2025-09-30 | Server-side template injection | Basic server-side template injection | Practitioner | [writeup](https://github.com/ammarsabit/portswigger-labs-writeup/blob/main/ssti/basic-server-side-template-injection.md) |
 | 17  | 2025-09-30 | Server-side template injection | Basic server-side template injection (code context) | Practitioner | N/A |
-| 18  | 2025-09-30 | Server-side template injection | Server-side template injection in an unknown language with a documented exploit | Practitioner | N/A |
-| 19  | 2025-09-30 | Authentication vulnerabilities | Username enumeration via account lock | Practitioner | N/A |
+| 18  | 2025-10-9 | Server-side template injection | Server-side template injection in an unknown language with a documented exploit | Practitioner | N/A |
+| 19  | 2025-10-9 | Authentication vulnerabilities | Username enumeration via account lock | Practitioner | N/A |
+| 20  | 2025-10-10 | Server-side template injection | Server-side template injection with information disclosure via user-supplied objects | Practitioner | N/A |
 
 ## Level progress
 - **Apprentice**: 10 of 59
-- **Practitioner**: 9 of 171
+- **Practitioner**: 10 of 171
 - **Expert**: 0 of 40
 
 ## Categories Covered
@@ -38,7 +39,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Information Disclosure**: 5/5 lab
 - **Business logic vulnerabilities**: 2/11 lab
 - **Authentication vulnerabilities**: 6/14 lab
-- **Server-side template injection**: 3/7 lab
+- **Server-side template injection**: 4/7 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -54,5 +55,3 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
   - `Writeup Link`: Links to full writeup (if exists) or "N/A" for quick solves.
 - 
 ---
-
-⭐ Star this repo if it helps your pentest journey!
