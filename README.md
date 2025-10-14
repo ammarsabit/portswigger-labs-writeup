@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-21-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--14-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-22-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--14-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -28,11 +28,12 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 18  | 2025-10-9 | Server-side template injection | Server-side template injection in an unknown language with a documented exploit | Practitioner | N/A |
 | 19  | 2025-10-9 | Authentication vulnerabilities | Username enumeration via account lock | Practitioner | N/A |
 | 20  | 2025-10-10 | Server-side template injection | Server-side template injection with information disclosure via user-supplied objects | Practitioner | N/A |
-| 20  | 2025-10-14 | Path traversal | File path traversal, simple case | Apprentice | N/A |
+| 21  | 2025-10-14 | Path traversal | File path traversal, simple case | Apprentice | N/A |
+| 22  | 2025-10-14 | Path traversal | File path traversal, traversal sequences blocked with absolute path bypass | Practitioner | N/A |
 
 ## Level progress
 - **Apprentice**: 11 of 59
-- **Practitioner**: 10 of 171
+- **Practitioner**: 11 of 171
 - **Expert**: 0 of 40
 
 ## Categories Covered
@@ -41,7 +42,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Business logic vulnerabilities**: 2/11 lab
 - **Authentication vulnerabilities**: 6/14 lab
 - **Server-side template injection**: 4/7 lab
-- **Path traversal**: 1/6 lab
+- **Path traversal**: 2/6 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
