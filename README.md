@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-24-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--16-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-26-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--16-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -32,10 +32,12 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 22  | 2025-10-14 | Path traversal | File path traversal, traversal sequences blocked with absolute path bypass | Practitioner | N/A |
 | 23 | 2025-10-14 | Path traversal | File path traversal, traversal sequences stripped non-recursively | Practitioner | N/A |
 | 24 | 2025-10-16 | Path traversal | File path traversal, traversal sequences stripped with superfluous URL-decode | Practitioner | N/A |
+| 25 | 2025-10-16 | Path traversal | File path traversal, validation of start of path | Practitioner | N/A |
+| 26 | 2025-10-16 | Path traversal | File path traversal, validation of file extension with null byte bypass | Practitioner | N/A |
 
 ## Level progress
 - **Apprentice**: 11 of 59
-- **Practitioner**: 13 of 171
+- **Practitioner**: 15 of 171
 - **Expert**: 0 of 40
 
 ## Categories Covered
@@ -44,7 +46,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Business logic vulnerabilities**: 2/11 lab
 - **Authentication vulnerabilities**: 6/14 lab
 - **Server-side template injection**: 4/7 lab
-- **Path traversal**: 4/6 lab
+- **Path traversal**: 6/6 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
