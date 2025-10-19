@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-27-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--17-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-29-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--19-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -35,10 +35,12 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 25 | 2025-10-16 | Path traversal | File path traversal, validation of start of path | Practitioner | N/A |
 | 26 | 2025-10-16 | Path traversal | File path traversal, validation of file extension with null byte bypass | Practitioner | N/A |
 | 27 | 2025-10-17 | File upload vulnerabilities | Remote code execution via web shell upload | Apprentice | N/A |
+| 28 | 2025-10-17 | File upload vulnerabilities | Web shell upload via Content-Type restriction bypass | Apprentice | N/A |
+| 29 | 2025-10-19 | File upload vulnerabilities | Web shell upload via path traversal | Practitioner | N/A |
 
 ## Level progress
-- **Apprentice**: 12 of 59
-- **Practitioner**: 15 of 171
+- **Apprentice**: 13 of 59
+- **Practitioner**: 16 of 171
 - **Expert**: 0 of 40
 
 ## Categories Covered
@@ -48,7 +50,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Authentication vulnerabilities**: 6/14 lab
 - **Server-side template injection**: 4/7 lab
 - **Path traversal**: 6/6 lab
-- **File upload vulnerabilities**: 1/7 lab
+- **File upload vulnerabilities**: 3/7 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
