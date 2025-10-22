@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-33-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--20-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-34-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--22-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -41,10 +41,11 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 31 | 2025-10-20 | Cross-site scripting | Stored XSS into HTML context with nothing encoded | Apprentice | N/A |
 | 32 | 2025-10-20 | SQL injection | SQL injection vulnerability allowing login bypass | Apprentice | N/A |
 | 33 | 2025-10-20 | SQL injection | SQL injection vulnerability in WHERE clause allowing retrieval of hidden data | Apprentice | N/A |
+| 34 | 2025-10-22 | File upload vulnerabilities | Web shell upload via extension blacklist bypass | Practitioner | N/A |
 
 ## Level progress
 - **Apprentice**: 17 of 59
-- **Practitioner**: 16 of 171
+- **Practitioner**: 17 of 171
 - **Expert**: 0 of 40
 
 ## Categories Covered
@@ -54,7 +55,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Authentication vulnerabilities**: 6/14 lab
 - **Server-side template injection**: 4/7 lab
 - **Path traversal**: 6/6 lab
-- **File upload vulnerabilities**: 3/7 lab
+- **File upload vulnerabilities**: 4/7 lab
 - **Cross-site scripting**: 2/30 lab
 - **SQL injection**: 2/18 lab
 
