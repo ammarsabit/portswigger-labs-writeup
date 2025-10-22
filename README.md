@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-29-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--19-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-33-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--20-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -37,9 +37,13 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 27 | 2025-10-17 | File upload vulnerabilities | Remote code execution via web shell upload | Apprentice | N/A |
 | 28 | 2025-10-17 | File upload vulnerabilities | Web shell upload via Content-Type restriction bypass | Apprentice | N/A |
 | 29 | 2025-10-19 | File upload vulnerabilities | Web shell upload via path traversal | Practitioner | N/A |
+| 30 | 2025-10-20 | Cross-site scripting | Reflected XSS into HTML context with nothing encoded | Apprentice | N/A |
+| 31 | 2025-10-20 | Cross-site scripting | Stored XSS into HTML context with nothing encoded | Apprentice | N/A |
+| 32 | 2025-10-20 | SQL injection | SQL injection vulnerability allowing login bypass | Apprentice | N/A |
+| 33 | 2025-10-20 | SQL injection | SQL injection vulnerability in WHERE clause allowing retrieval of hidden data | Apprentice | N/A |
 
 ## Level progress
-- **Apprentice**: 13 of 59
+- **Apprentice**: 17 of 59
 - **Practitioner**: 16 of 171
 - **Expert**: 0 of 40
 
@@ -51,6 +55,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Server-side template injection**: 4/7 lab
 - **Path traversal**: 6/6 lab
 - **File upload vulnerabilities**: 3/7 lab
+- **Cross-site scripting**: 2/30 lab
+- **SQL injection**: 2/18 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
