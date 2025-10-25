@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-35-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--22-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-42-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--25-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -43,10 +43,17 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 33 | 2025-10-20 | SQL injection | SQL injection vulnerability in WHERE clause allowing retrieval of hidden data | Apprentice | N/A |
 | 34 | 2025-10-22 | File upload vulnerabilities | Web shell upload via extension blacklist bypass | Practitioner | N/A |
 | 35 | 2025-10-22 | File upload vulnerabilities | Web shell upload via obfuscated file extension | Practitioner | N/A |
+| 36 | 2025-10-24 | Race conditions | Limit overrun race conditions | Apprentice | N/A |
+| 37 | 2025-10-24 | Race conditions | Bypassing rate limits via race conditions | Practitioner | N/A |
+| 38 | 2025-10-25 | Access control | Unprotected admin functionality | Apprentice | N/A |
+| 39 | 2025-10-25 | Access control | Unprotected admin functionality with unpredictable URL | Apprentice | N/A |
+| 40 | 2025-10-25 | Access control | User role controlled by request parameter | Apprentice | N/A |
+| 41 | 2025-10-25 | Access control | User ID controlled by request parameter  | Apprentice | N/A |
+| 42 | 2025-10-25 | Access control | User ID controlled by request parameter, with unpredictable user IDs | Apprentice | N/A |
 
 ## Level progress
-- **Apprentice**: 17 of 59
-- **Practitioner**: 18 of 171
+- **Apprentice**: 23 of 59
+- **Practitioner**: 19 of 171
 - **Expert**: 0 of 40
 
 ## Categories Covered
@@ -59,6 +66,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **File upload vulnerabilities**: 5/7 lab
 - **Cross-site scripting**: 2/30 lab
 - **SQL injection**: 2/18 lab
+- **Race conditions**: 2/6 lab
+- **Access control**: 5/13 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
