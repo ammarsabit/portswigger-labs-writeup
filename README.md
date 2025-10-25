@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-42-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--25-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-43-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--25-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -50,9 +50,10 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 40 | 2025-10-25 | Access control | User role controlled by request parameter | Apprentice | N/A |
 | 41 | 2025-10-25 | Access control | User ID controlled by request parameter  | Apprentice | N/A |
 | 42 | 2025-10-25 | Access control | User ID controlled by request parameter, with unpredictable user IDs | Apprentice | N/A |
+| 43 | 2025-10-25 | Access control | User ID controlled by request parameter with data leakage in redirect  | Apprentice | N/A |
 
 ## Level progress
-- **Apprentice**: 23 of 59
+- **Apprentice**: 24 of 59
 - **Practitioner**: 19 of 171
 - **Expert**: 0 of 40
 
@@ -67,7 +68,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Cross-site scripting**: 2/30 lab
 - **SQL injection**: 2/18 lab
 - **Race conditions**: 2/6 lab
-- **Access control**: 5/13 lab
+- **Access control**: 6/13 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
