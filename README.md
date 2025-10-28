@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-48-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--26-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-51-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--28-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -54,12 +54,15 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 44 | 2025-10-26 | Access control | User ID controlled by request parameter with password disclosure  | Apprentice | N/A |
 | 45 | 2025-10-26 | Access control | Insecure direct object references  | Apprentice | N/A |
 | 46 | 2025-10-26 | Access control | Referer-based access control   | Practitioner | N/A |
-| 47 | 2025-10-26 | Access control | Multi-step process with no access control on one step   | Practitioner | N/A |
-| 48 | 2025-10-26 | OS command injection | Multi-step process with no access control on one step   | Practitioner | N/A |
+| 47 | 2025-10-26 | Access control | Multi-step process with no access control on one step | Practitioner | N/A |
+| 48 | 2025-10-27 | OS command injection | Multi-step process with no access control on one step   | Practitioner | N/A |
+| 49 | 2025-10-27 | OS command injection | Blind OS command injection with output redirection | Practitioner | N/A |
+| 50 | 2025-10-27 | OS command injection | Blind OS command injection with time delays | Practitioner | N/A |
+| 51 | 2025-10-28 | SQL injection | SQL injection UNION attack, determining the number of columns returned by the query | Practitioner | N/A |
 
 ## Level progress
 - **Apprentice**: 27 of 59
-- **Practitioner**: 21 of 171
+- **Practitioner**: 24 of 171
 - **Expert**: 0 of 40
 
 ## Categories Covered
@@ -71,10 +74,10 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Path traversal**: 6/6 lab
 - **File upload vulnerabilities**: 5/7 lab
 - **Cross-site scripting**: 2/30 lab
-- **SQL injection**: 2/18 lab
+- **SQL injection**: 3/18 lab
 - **Race conditions**: 2/6 lab
 - **Access control**: 10/13 lab
-- **OS command injection**: 1/5 lab
+- **OS command injection**: 3/5 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
