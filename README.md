@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-51-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--28-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-58-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--29-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -59,10 +59,17 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 49 | 2025-10-27 | OS command injection | Blind OS command injection with output redirection | Practitioner | N/A |
 | 50 | 2025-10-27 | OS command injection | Blind OS command injection with time delays | Practitioner | N/A |
 | 51 | 2025-10-28 | SQL injection | SQL injection UNION attack, determining the number of columns returned by the query | Practitioner | N/A |
+| 52 | 2025-10-28 | SQL injection | SQL injection UNION attack, finding a column containing text | Practitioner | N/A |
+| 53 | 2025-10-28 | SQL injection | SQL injection UNION attack, retrieving data from other tables | Practitioner | N/A |
+| 54 | 2025-10-28 | SQL injection | SQL injection UNION attack, retrieving multiple values in a single column | Practitioner | N/A |
+| 55 | 2025-10-28 | SQL injection | SQL injection attack, querying the database type and version on Oracle | Practitioner | N/A |
+| 56 | 2025-10-29 | SQL injection | SQL injection attack, querying the database type and version on MySQL and Microsoft | Practitioner | N/A |
+| 57 | 2025-10-29 | SQL injection | SQL injection attack, listing the database contents on non-Oracle databases | Practitioner | N/A |
+| 58 | 2025-10-29 | SQL injection | SQL injection attack, listing the database contents on Oracle | Practitioner | N/A |
 
 ## Level progress
 - **Apprentice**: 27 of 59
-- **Practitioner**: 24 of 171
+- **Practitioner**: 31 of 171
 - **Expert**: 0 of 40
 
 ## Categories Covered
@@ -74,7 +81,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Path traversal**: 6/6 lab
 - **File upload vulnerabilities**: 5/7 lab
 - **Cross-site scripting**: 2/30 lab
-- **SQL injection**: 3/18 lab
+- **SQL injection**: 10/18 lab
 - **Race conditions**: 2/6 lab
 - **Access control**: 10/13 lab
 - **OS command injection**: 3/5 lab
