@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-58-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--29-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-61-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--29-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -66,10 +66,13 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 56 | 2025-10-29 | SQL injection | SQL injection attack, querying the database type and version on MySQL and Microsoft | Practitioner | N/A |
 | 57 | 2025-10-29 | SQL injection | SQL injection attack, listing the database contents on non-Oracle databases | Practitioner | N/A |
 | 58 | 2025-10-29 | SQL injection | SQL injection attack, listing the database contents on Oracle | Practitioner | N/A |
+| 59 | 2025-10-29 | Server-side request forgery (SSRF) | Basic SSRF against the local server | Apprentice | N/A |
+| 60 | 2025-10-29 | Server-side request forgery (SSRF) | Basic SSRF against another back-end system | Apprentice | N/A |
+| 61 | 2025-10-29 | Server-side request forgery (SSRF) | Blind SSRF with out-of-band detection | Practitioner | N/A |
 
 ## Level progress
-- **Apprentice**: 27 of 59
-- **Practitioner**: 31 of 171
+- **Apprentice**: 29 of 59
+- **Practitioner**: 32 of 171
 - **Expert**: 0 of 40
 
 ## Categories Covered
@@ -85,6 +88,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Race conditions**: 2/6 lab
 - **Access control**: 10/13 lab
 - **OS command injection**: 3/5 lab
+- **Server-side request forgery (SSRF)**: 3/7 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
