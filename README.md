@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-61-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--29-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-62-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--10--31-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -69,10 +69,11 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 59 | 2025-10-29 | Server-side request forgery (SSRF) | Basic SSRF against the local server | Apprentice | N/A |
 | 60 | 2025-10-29 | Server-side request forgery (SSRF) | Basic SSRF against another back-end system | Apprentice | N/A |
 | 61 | 2025-10-29 | Server-side request forgery (SSRF) | Blind SSRF with out-of-band detection | Practitioner | N/A |
+| 62 | 2025-10-31 | SQL injection | Blind SQL injection with conditional responses | Practitioner | N/A |
 
 ## Level progress
 - **Apprentice**: 29 of 59
-- **Practitioner**: 32 of 171
+- **Practitioner**: 33 of 171
 - **Expert**: 0 of 40
 
 ## Categories Covered
@@ -84,7 +85,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Path traversal**: 6/6 lab
 - **File upload vulnerabilities**: 5/7 lab
 - **Cross-site scripting**: 2/30 lab
-- **SQL injection**: 10/18 lab
+- **SQL injection**: 11/18 lab
 - **Race conditions**: 2/6 lab
 - **Access control**: 10/13 lab
 - **OS command injection**: 3/5 lab
