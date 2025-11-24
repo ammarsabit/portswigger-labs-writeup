@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-72-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--11--23-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-79-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--11--24-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -80,11 +80,18 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 70 | 2025-11-10 | Cross-site scripting | DOM XSS in document.write sink using source location.search | Apprentice | N/A |
 | 71 | 2025-11-10 | Server-side template injection | Server-side template injection using documentation | Practitioner | N/A |
 | 72 | 2025-11-23 | JWT attacks | JWT authentication bypass via unverified signature | Apprentice | N/A |
+| 73 | 2025-11-23 | JWT attacks | JWT authentication bypass via flawed signature verification | Apprentice | N/A |
+| 74 | 2025-11-23 | JWT attacks | JWT authentication bypass via weak signing key | Practitioner | N/A |
+| 75 | 2025-11-23 | JWT attacks | JWT authentication bypass via jwk header injection | Practitioner | N/A |
+| 76 | 2025-11-24 | JWT attacks | JWT authentication bypass via jku header injection | Practitioner | N/A |
+| 77 | 2025-11-24 | JWT attacks | JWT authentication bypass via kid header path traversal | Practitioner | N/A |
+| 78 | 2025-11-24 | JWT attacks | JWT authentication bypass via algorithm confusion | Expert | N/A |
+| 79 | 2025-11-24 | JWT attacks | JWT authentication bypass via algorithm confusion with no exposed key | Expert | N/A |
 
 ## Level progress
-- **Apprentice**: 32 of 59
-- **Practitioner**: 40 of 171
-- **Expert**: 0 of 40
+- **Apprentice**: 33 of 59
+- **Practitioner**: 44 of 171
+- **Expert**: 2 of 40
 
 ## Categories Covered
 - **API Testing**: 3/5 lab
@@ -100,7 +107,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Access control**: 10/13 lab
 - **OS command injection**: 5/5 lab
 - **Server-side request forgery (SSRF)**: 4/7 lab
-- **JWT attacks**: 1/8 lab
+- **JWT attacks**: 8/8 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
