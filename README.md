@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-79-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--11--24-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-87-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2025--11--28-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -87,21 +87,29 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 77 | 2025-11-24 | JWT attacks | JWT authentication bypass via kid header path traversal | Practitioner | N/A |
 | 78 | 2025-11-24 | JWT attacks | JWT authentication bypass via algorithm confusion | Expert | N/A |
 | 79 | 2025-11-24 | JWT attacks | JWT authentication bypass via algorithm confusion with no exposed key | Expert | N/A |
+| 80 | 2025-11-25 | Cross-site scripting | DOM XSS in document.write sink using source location.search inside a select element | Practitioner | N/A |
+| 81 | 2025-11-25 | Cross-site scripting | DOM XSS in innerHTML sink using source location.search | Apprentice | N/A |
+| 82 | 2025-11-26 | Cross-site scripting | DOM XSS in jQuery anchor href attribute sink using location.search source | Apprentice | N/A |
+| 83 | 2025-11-26 | Cross-site scripting | DOM XSS in jQuery selector sink using a hashchange event | Apprentice | N/A |
+| 84 | 2025-11-27 | Cross-site scripting | DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded | Practitioner | N/A |
+| 85 | 2025-11-27 | Cross-site scripting | Stored DOM XSS | Practitioner | N/A |
+| 86 | 2025-11-28 | Authentication vulnerabilities | Offline password cracking | Practitioner | N/A |
+| 87 | 2025-11-28 | Authentication vulnerabilities | Brute-forcing a stay-logged-in cookie | Practitioner | N/A |
 
 ## Level progress
-- **Apprentice**: 33 of 59
-- **Practitioner**: 44 of 171
+- **Apprentice**: 36 of 59
+- **Practitioner**: 49 of 171
 - **Expert**: 2 of 40
 
 ## Categories Covered
 - **API Testing**: 3/5 lab
 - **Information Disclosure**: 5/5 lab
 - **Business logic vulnerabilities**: 2/11 lab
-- **Authentication vulnerabilities**: 6/14 lab
+- **Authentication vulnerabilities**: 8/14 lab
 - **Server-side template injection**: 5/7 lab
 - **Path traversal**: 6/6 lab
 - **File upload vulnerabilities**: 5/7 lab
-- **Cross-site scripting**: 5/30 lab
+- **Cross-site scripting**: 11/30 lab
 - **SQL injection**: 13/18 lab
 - **Race conditions**: 2/6 lab
 - **Access control**: 10/13 lab
