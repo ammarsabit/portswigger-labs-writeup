@@ -94,7 +94,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 84 | 2025-11-27 | Cross-site scripting | DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded | Practitioner | N/A |
 | 85 | 2025-11-27 | Cross-site scripting | Stored DOM XSS | Practitioner | N/A |
 | 86 | 2025-11-28 | Authentication vulnerabilities | Offline password cracking | Practitioner | N/A |
-| 87 | 2025-11-28 | Authentication vulnerabilities | Brute-forcing a stay-logged-in cookie | Practitioner | N/A |
+| 87 | 2025-11-28 | Authentication vulnerabilities | Brute-forcing a stay-logged-in cookie | Practitioner | [writeup](https://github.com/ammarsabit/portswigger-labs-writeup/tree/main/Authentication_vulnerabilities) |
 
 ## Level progress
 - **Apprentice**: 36 of 59
