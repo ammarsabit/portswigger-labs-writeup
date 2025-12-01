@@ -1,2 +1,0 @@
-2025-09-28 | Excessive trust in client-side controls | APPRENTICE | changing the price of the price in the middle of client and server
-2025-09-30 | High-level logic vulnerability | APPRENTICE | adding a negative value item number to cart reduce the total price of the cart
