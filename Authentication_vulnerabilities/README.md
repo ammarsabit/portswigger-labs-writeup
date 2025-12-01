@@ -183,5 +183,7 @@ main()
 ## Prevention
 
 ```
- >**Never** store sensitive data such as usernames or password hashes inside client-side cookies. Instead, generate a random session token that cannot be guessed, or use a secure mechanism such as JWT with proper signing.
+ >**Never** store sensitive data such as usernames or password hashes inside client-side
+ cookies. Instead, generate a random session token that cannot be guessed, or use a secure
+ mechanism such as JWT with proper signing.
 ```
