@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-118-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--21-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-121-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--21-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -126,10 +126,13 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 116 | 2025-12-17 | Authentication vulnerabilities |  Broken brute-force protection, multiple credentials per request | Expert | N/A |
 | 117 | 2025-12-17 | Authentication vulnerabilities |  Username enumeration via response timing | Practitioner | N/A |
 | 118 | 2026-01-21 | Web cache deception |  Exploiting path mapping for web cache deception | Apprentice | N/A |
+| 119 | 2026-01-21 | Web cache deception |  Exploiting path delimiters for web cache deception | Practitioner | N/A |
+| 120 | 2026-01-21 | Web cache deception |  Exploiting origin server normalization for web cache deception | Practitioner | N/A |
+| 121 | 2026-01-21 | Web cache deception |  Exploiting cache server normalization for web cache deception | Practitioner | N/A |
 
 ## Level progress
 - **Apprentice**: 44 of 59
-- **Practitioner**: 70 of 171
+- **Practitioner**: 73 of 171
 - **Expert**: 4 of 40
 
 ## Categories Covered
@@ -153,7 +156,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **GraphQL API vulnerabilities**: 5/5 lab
 - **Insecure deserialization**: 3/10 lab
 - **OAuth authentication**: 1/6 lab
-- **Web cache deception**: 1/5 lab
+- **Web cache deception**: 4/5 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
