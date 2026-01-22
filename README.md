@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-121-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--21-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-127-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--22-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -129,11 +129,17 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 119 | 2026-01-21 | Web cache deception |  Exploiting path delimiters for web cache deception | Practitioner | N/A |
 | 120 | 2026-01-21 | Web cache deception |  Exploiting origin server normalization for web cache deception | Practitioner | N/A |
 | 121 | 2026-01-21 | Web cache deception |  Exploiting cache server normalization for web cache deception | Practitioner | N/A |
+| 122 | 2026-01-22 | Web cache deception |  Exploiting exact-match cache rules for web cache deception | Expert | N/A |
+| 123 | 2026-01-22 | Web cache poisoning |  Web cache poisoning with an unkeyed header | Practitioner | N/A |
+| 124 | 2026-01-22 | Web cache poisoning |  Web cache poisoning with an unkeyed cookie | Practitioner | N/A |
+| 125 | 2026-01-22 | Web cache poisoning |  Web cache poisoning with multiple headers | Practitioner | N/A |
+| 126 | 2026-01-22 | Web cache poisoning |  Targeted web cache poisoning using an unknown header | Practitioner | N/A |
+| 127 | 2026-01-22 | Web cache poisoning |  Web cache poisoning to exploit a DOM vulnerability via a cache with strict cacheability criteria | Expert | N/A |
 
 ## Level progress
 - **Apprentice**: 44 of 59
-- **Practitioner**: 73 of 171
-- **Expert**: 4 of 40
+- **Practitioner**: 77 of 171
+- **Expert**: 6 of 40
 
 ## Categories Covered
 - **API Testing**: 3/5 lab
@@ -156,7 +162,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **GraphQL API vulnerabilities**: 5/5 lab
 - **Insecure deserialization**: 3/10 lab
 - **OAuth authentication**: 1/6 lab
-- **Web cache deception**: 4/5 lab
+- **Web cache deception**: 5/5 lab
+- **Web cache poisoning**: 6/13 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
