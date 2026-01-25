@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-128-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--23-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-138-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--25-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -137,10 +137,19 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 127 | 2026-01-22 | Web cache poisoning |  Web cache poisoning to exploit a DOM vulnerability via a cache with strict cacheability criteria | Expert | N/A |
 | 128 | 2026-01-23 | Web cache poisoning |  Web cache poisoning via an unkeyed query string | Practitioner | N/A |
 | 129 | 2026-01-23 | Web cache poisoning |  Web cache poisoning via an unkeyed query parameter | Practitioner | N/A |
+| 130 | 2026-01-25 | Prototype pollution |  Privilege escalation via server-side prototype pollution | Practitioner | N/A |
+| 131 | 2026-01-25 | Prototype pollution |  Detecting server-side prototype pollution without polluted property reflection | Practitioner | N/A |
+| 132 | 2026-01-25 | Prototype pollution |  Bypassing flawed input filters for server-side prototype pollution | Practitioner | N/A |
+| 133 | 2026-01-25 | Prototype pollution |  Remote code execution via server-side prototype pollution | Practitioner | N/A |
+| 134 | 2026-01-25 | HTTP Host header attacks |  Basic password reset poisoning | Apprentice | N/A |
+| 135 | 2026-01-25 | HTTP Host header attacks |  Password reset poisoning via middleware | Practitioner | N/A |
+| 136 | 2026-01-25 | HTTP Host header attacks |  Host header authentication bypass | Apprentice | N/A |
+| 137 | 2026-01-25 | HTTP Host header attacks |  Routing-based SSRF | Practitioner | N/A |
+| 138 | 2026-01-25 | HTTP Host header attacks |  SSRF via flawed request parsing | Practitioner | N/A |
 
 ## Level progress
-- **Apprentice**: 44 of 59
-- **Practitioner**: 79 of 171
+- **Apprentice**: 46 of 59
+- **Practitioner**: 86 of 171
 - **Expert**: 6 of 40
 
 ## Categories Covered
@@ -166,6 +175,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **OAuth authentication**: 1/6 lab
 - **Web cache deception**: 5/5 lab
 - **Web cache poisoning**: 7/13 lab
+- **Prototype pollution**: 4/10 lab
+- **HTTP Host header attacks**: 5/7 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
