@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-140-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--26-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-148-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--27-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -148,11 +148,19 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 138 | 2026-01-25 | HTTP Host header attacks |  SSRF via flawed request parsing | Practitioner | N/A |
 | 139 | 2026-01-26 | HTTP Host header attacks |  Host validation bypass via connection state attack | Practitioner | N/A |
 | 140 | 2026-01-26 | HTTP Host header attacks |  Web cache poisoning via ambiguous requests | Practitioner | N/A |
+| 141 | 2026-01-27 | Prototype pollution |  Exfiltrating sensitive data via server-side prototype pollution | Expert | N/A |
+| 142 | 2026-01-27 | XXE injection |  Exploiting XXE using external entities to retrieve files | Apprentice | N/A |
+| 143 | 2026-01-27 | XXE injection |  Exploiting XXE to perform SSRF attacks | Apprentice | N/A |
+| 144 | 2026-01-27 | XXE injection |  Blind XXE with out-of-band interaction | Practitioner | N/A |
+| 145 | 2026-01-27 | XXE injection |  Blind XXE with out-of-band interaction via XML parameter entities | Practitioner | N/A |
+| 146 | 2026-01-27 | XXE injection |  Exploiting blind XXE to exfiltrate data using a malicious external DTD | Practitioner | N/A |
+| 147 | 2026-01-27 | XXE injection |  Exploiting blind XXE to retrieve data via error messages | Practitioner | N/A |
+| 148 | 2026-01-27 | XXE injection |  Exploiting XXE via image file upload | Practitioner | N/A |
 
 ## Level progress
-- **Apprentice**: 46 of 59
-- **Practitioner**: 88 of 171
-- **Expert**: 6 of 40
+- **Apprentice**: 48 of 59
+- **Practitioner**: 93 of 171
+- **Expert**: 7 of 40
 
 ## Categories Covered
 - **API Testing**: 3/5 lab
@@ -177,8 +185,9 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **OAuth authentication**: 1/6 lab
 - **Web cache deception**: 5/5 lab
 - **Web cache poisoning**: 7/13 lab
-- **Prototype pollution**: 4/10 lab
+- **Prototype pollution**: 5/10 lab
 - **HTTP Host header attacks**: 6/7 lab
+- **XXE injection**: 7/9 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
