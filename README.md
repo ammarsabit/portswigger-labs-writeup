@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-138-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--25-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-140-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--26-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -146,10 +146,12 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 136 | 2026-01-25 | HTTP Host header attacks |  Host header authentication bypass | Apprentice | N/A |
 | 137 | 2026-01-25 | HTTP Host header attacks |  Routing-based SSRF | Practitioner | N/A |
 | 138 | 2026-01-25 | HTTP Host header attacks |  SSRF via flawed request parsing | Practitioner | N/A |
+| 139 | 2026-01-26 | HTTP Host header attacks |  Host validation bypass via connection state attack | Practitioner | N/A |
+| 140 | 2026-01-26 | HTTP Host header attacks |  Web cache poisoning via ambiguous requests | Practitioner | N/A |
 
 ## Level progress
 - **Apprentice**: 46 of 59
-- **Practitioner**: 86 of 171
+- **Practitioner**: 88 of 171
 - **Expert**: 6 of 40
 
 ## Categories Covered
@@ -176,7 +178,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Web cache deception**: 5/5 lab
 - **Web cache poisoning**: 7/13 lab
 - **Prototype pollution**: 4/10 lab
-- **HTTP Host header attacks**: 5/7 lab
+- **HTTP Host header attacks**: 6/7 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
