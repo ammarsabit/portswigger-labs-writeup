@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-148-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--27-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-150-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--28-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -156,9 +156,12 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 146 | 2026-01-27 | XXE injection |  Exploiting blind XXE to exfiltrate data using a malicious external DTD | Practitioner | N/A |
 | 147 | 2026-01-27 | XXE injection |  Exploiting blind XXE to retrieve data via error messages | Practitioner | N/A |
 | 148 | 2026-01-27 | XXE injection |  Exploiting XXE via image file upload | Practitioner | N/A |
+| 149 | 2026-01-28 | Clickjacking |  Basic clickjacking with CSRF token protection | Apprentice | N/A |
+| 150 | 2026-01-28 | Clickjacking |  Clickjacking with form input data prefilled from a URL parameter | Apprentice | N/A |
+| 151 | 2026-01-28 | Clickjacking |  Clickjacking with a frame buster script | Apprentice | N/A |
 
 ## Level progress
-- **Apprentice**: 48 of 59
+- **Apprentice**: 51 of 59
 - **Practitioner**: 93 of 171
 - **Expert**: 7 of 40
 
@@ -188,6 +191,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Prototype pollution**: 5/10 lab
 - **HTTP Host header attacks**: 6/7 lab
 - **XXE injection**: 7/9 lab
+- **Clickjacking**: 3/5 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
