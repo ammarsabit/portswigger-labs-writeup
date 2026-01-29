@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-150-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--28-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-154-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--29-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -159,10 +159,14 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 149 | 2026-01-28 | Clickjacking |  Basic clickjacking with CSRF token protection | Apprentice | N/A |
 | 150 | 2026-01-28 | Clickjacking |  Clickjacking with form input data prefilled from a URL parameter | Apprentice | N/A |
 | 151 | 2026-01-28 | Clickjacking |  Clickjacking with a frame buster script | Apprentice | N/A |
+| 152 | 2026-01-29 | NoSQL injection |  Detecting NoSQL injection | Apprentice | N/A |
+| 153 | 2026-01-29 | NoSQL injection |  Exploiting NoSQL operator injection to bypass authentication | Apprentice | N/A |
+| 154 | 2026-01-29 | NoSQL injection |  Exploiting NoSQL injection to extract data | Practitioner | N/A |
+| 155 | 2026-01-29 | NoSQL injection |  Exploiting NoSQL operator injection to extract unknown fields | Practitioner | N/A |
 
 ## Level progress
-- **Apprentice**: 51 of 59
-- **Practitioner**: 93 of 171
+- **Apprentice**: 53 of 59
+- **Practitioner**: 95 of 171
 - **Expert**: 7 of 40
 
 ## Categories Covered
@@ -192,6 +196,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **HTTP Host header attacks**: 6/7 lab
 - **XXE injection**: 7/9 lab
 - **Clickjacking**: 3/5 lab
+- **NoSQL injection**: 4/4 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
