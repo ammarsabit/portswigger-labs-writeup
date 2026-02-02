@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-154-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--29-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-163-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--2-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -163,11 +163,19 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 153 | 2026-01-29 | NoSQL injection |  Exploiting NoSQL operator injection to bypass authentication | Apprentice | N/A |
 | 154 | 2026-01-29 | NoSQL injection |  Exploiting NoSQL injection to extract data | Practitioner | N/A |
 | 155 | 2026-01-29 | NoSQL injection |  Exploiting NoSQL operator injection to extract unknown fields | Practitioner | N/A |
+| 156 | 2026-02-2 | CORS |  CORS vulnerability with basic origin reflection | Apprentice | N/A |
+| 157 | 2026-02-2 | CORS |  CORS vulnerability with trusted null origin | Apprentice | N/A |
+| 158 | 2026-02-2 | Web LLM attacks |  Exploiting LLM APIs with excessive agency | Apprentice | N/A |
+| 159 | 2026-02-2 | Web LLM attacks |  Exploiting vulnerabilities in LLM APIs | Practitioner | N/A |
+| 160 | 2026-02-2 | Essential skills |  Discovering vulnerabilities quickly with targeted scanning | Practitioner | N/A |
+| 161 | 2026-02-2 | XXE injection |  Exploiting XInclude to retrieve files | Practitioner | N/A |
+| 162 | 2026-02-2 | XXE injection |  Exploiting XXE to retrieve data by repurposing a local DTD | Expert | N/A |
+| 163 | 2026-02-2 | Essential skills |  Scanning non-standard data structures | Practitioner | N/A |
 
 ## Level progress
-- **Apprentice**: 53 of 59
-- **Practitioner**: 95 of 171
-- **Expert**: 7 of 40
+- **Apprentice**: 56 of 59
+- **Practitioner**: 99 of 171
+- **Expert**: 8 of 40
 
 ## Categories Covered
 - **API Testing**: 3/5 lab
@@ -194,9 +202,12 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Web cache poisoning**: 7/13 lab
 - **Prototype pollution**: 5/10 lab
 - **HTTP Host header attacks**: 6/7 lab
-- **XXE injection**: 7/9 lab
+- **XXE injection**: 9/9 lab
 - **Clickjacking**: 3/5 lab
 - **NoSQL injection**: 4/4 lab
+- **CORS**: 2/3 lab
+- **Web LLM attacks**: 2/4 lab
+- **Essential skills**: 2/2 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
