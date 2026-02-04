@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-163-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--2-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-165-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--3-yellow)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -171,24 +171,31 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 161 | 2026-02-2 | XXE injection |  Exploiting XInclude to retrieve files | Practitioner | N/A |
 | 162 | 2026-02-2 | XXE injection |  Exploiting XXE to retrieve data by repurposing a local DTD | Expert | N/A |
 | 163 | 2026-02-2 | Essential skills |  Scanning non-standard data structures | Practitioner | N/A |
+| 164 | 2026-02-3 | Cross-site scripting |  Reflected XSS with some SVG markup allowed | Practitioner | N/A |
+| 165 | 2026-02-3 | Cross-site scripting |  Exploiting XSS to bypass CSRF defenses | Practitioner | N/A |
+| 166 | 2026-02-3 | Cross-site scripting |  Exploiting cross-site scripting to capture passwords | Practitioner | N/A |
+| 167 | 2026-02-3 | Authentication vulnerabilities |  Broken brute-force protection, IP block | Practitioner | N/A |
+| 168 | 2026-02-3 | Access control |  User role can be modified in user profile | Apprentice | N/A |
+| 169 | 2026-02-3 | Access control |  User role can be modified in user profile | Practitioner | N/A |
+| 170 | 2026-02-3 | Access control |  Method-based access control can be circumvented | Practitioner | N/A |
 
 ## Level progress
-- **Apprentice**: 56 of 59
-- **Practitioner**: 99 of 171
+- **Apprentice**: 57 of 59
+- **Practitioner**: 105 of 171
 - **Expert**: 8 of 40
 
 ## Categories Covered
 - **API Testing**: 3/5 lab
 - **Information Disclosure**: 5/5 lab
 - **Business logic vulnerabilities**: 2/11 lab
-- **Authentication vulnerabilities**: 10/14 lab
+- **Authentication vulnerabilities**: 12/14 lab
 - **Server-side template injection**: 5/7 lab
 - **Path traversal**: 6/6 lab
 - **File upload vulnerabilities**: 7/7 lab
-- **Cross-site scripting**: 15/30 lab
+- **Cross-site scripting**: 18/30 lab
 - **SQL injection**: 13/18 lab
 - **Race conditions**: 2/6 lab
-- **Access control**: 10/13 lab
+- **Access control**: 13/13 lab
 - **OS command injection**: 5/5 lab
 - **Server-side request forgery (SSRF)**: 4/7 lab
 - **JWT attacks**: 8/8 lab
