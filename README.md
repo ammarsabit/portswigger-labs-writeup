@@ -1,8 +1,60 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-165-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--3-yellow)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-177-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--4-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
+
+## Level progress
+- **Apprentice**: 59 of 59
+- **Practitioner**: 110 of 171
+- **Expert**: 8 of 40
+
+## Categories Covered
+- **API Testing**: 3/5 lab
+- **Information Disclosure**: 5/5 lab
+- **Business logic vulnerabilities**: 4/11 lab
+- **Authentication vulnerabilities**: 12/14 lab
+- **Server-side template injection**: 5/7 lab
+- **Path traversal**: 6/6 lab
+- **File upload vulnerabilities**: 7/7 lab
+- **Cross-site scripting**: 18/30 lab
+- **SQL injection**: 18/18 lab
+- **Race conditions**: 2/6 lab
+- **Access control**: 13/13 lab
+- **OS command injection**: 5/5 lab
+- **Server-side request forgery (SSRF)**: 4/7 lab
+- **JWT attacks**: 8/8 lab
+- **Cross-site request forgery (CSRF)**: 8/12 lab
+- **DOM-based vulnerabilities**: 4/7 lab
+- **WebSockets**: 1/3 lab
+- **GraphQL API vulnerabilities**: 5/5 lab
+- **Insecure deserialization**: 3/10 lab
+- **OAuth authentication**: 1/6 lab
+- **Web cache deception**: 5/5 lab
+- **Web cache poisoning**: 7/13 lab
+- **Prototype pollution**: 5/10 lab
+- **HTTP Host header attacks**: 6/7 lab
+- **XXE injection**: 9/9 lab
+- **Clickjacking**: 3/5 lab
+- **NoSQL injection**: 4/4 lab
+- **CORS**: 2/3 lab
+- **Web LLM attacks**: 2/4 lab
+- **Essential skills**: 2/2 lab
+
+## Notes
+- **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
+- **Tools Used**: Burp Suite
+
+## How to Read
+- **Columns**: 
+  - `No`: Sequential lab number.
+  - `Date`: When I solved it (YYYY-MM-DD).
+  - `Topic`: Vulnerability category (e.g., API Testing, XSS).
+  - `Lab Title`: Exact name from PortSwigger.
+  - `Difficulty`: Apprentice, Practitioner, or Expert.
+  - `Writeup Link`: Links to full writeup (if exists) or "N/A" for quick solves.
+
+---
 
 ## Solved Labs
 
@@ -178,55 +230,11 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 168 | 2026-02-3 | Access control |  User role can be modified in user profile | Apprentice | N/A |
 | 169 | 2026-02-3 | Access control |  User role can be modified in user profile | Practitioner | N/A |
 | 170 | 2026-02-3 | Access control |  Method-based access control can be circumvented | Practitioner | N/A |
+| 171 | 2026-02-4 | Business logic vulnerabilities |  Inconsistent security controls | Apprentice | N/A |
+| 172 | 2026-02-4 | Business logic vulnerabilities |  Flawed enforcement of business rules | Apprentice | N/A |
+| 173 | 2026-02-4 | SQL injection |  Visible error-based SQL injection | Practitioner | N/A |
+| 174 | 2026-02-4 | SQL injection |  Blind SQL injection with time delays and information retrieval | Practitioner | N/A |
+| 175 | 2026-02-4 | SQL injection |  Blind SQL injection with out-of-band interaction | Practitioner | N/A |
+| 176 | 2026-02-4 | SQL injection |  Blind SQL injection with out-of-band data exfiltration | Practitioner | N/A |
+| 177 | 2026-02-4 | SQL injection |  SQL injection with filter bypass via XML encoding | Practitioner | N/A |
 
-## Level progress
-- **Apprentice**: 57 of 59
-- **Practitioner**: 105 of 171
-- **Expert**: 8 of 40
-
-## Categories Covered
-- **API Testing**: 3/5 lab
-- **Information Disclosure**: 5/5 lab
-- **Business logic vulnerabilities**: 2/11 lab
-- **Authentication vulnerabilities**: 12/14 lab
-- **Server-side template injection**: 5/7 lab
-- **Path traversal**: 6/6 lab
-- **File upload vulnerabilities**: 7/7 lab
-- **Cross-site scripting**: 18/30 lab
-- **SQL injection**: 13/18 lab
-- **Race conditions**: 2/6 lab
-- **Access control**: 13/13 lab
-- **OS command injection**: 5/5 lab
-- **Server-side request forgery (SSRF)**: 4/7 lab
-- **JWT attacks**: 8/8 lab
-- **Cross-site request forgery (CSRF)**: 8/12 lab
-- **DOM-based vulnerabilities**: 4/7 lab
-- **WebSockets**: 1/3 lab
-- **GraphQL API vulnerabilities**: 5/5 lab
-- **Insecure deserialization**: 3/10 lab
-- **OAuth authentication**: 1/6 lab
-- **Web cache deception**: 5/5 lab
-- **Web cache poisoning**: 7/13 lab
-- **Prototype pollution**: 5/10 lab
-- **HTTP Host header attacks**: 6/7 lab
-- **XXE injection**: 9/9 lab
-- **Clickjacking**: 3/5 lab
-- **NoSQL injection**: 4/4 lab
-- **CORS**: 2/3 lab
-- **Web LLM attacks**: 2/4 lab
-- **Essential skills**: 2/2 lab
-
-## Notes
-- **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
-- **Tools Used**: Burp Suite
-
-## How to Read
-- **Columns**: 
-  - `No`: Sequential lab number.
-  - `Date`: When I solved it (YYYY-MM-DD).
-  - `Topic`: Vulnerability category (e.g., API Testing, XSS).
-  - `Lab Title`: Exact name from PortSwigger.
-  - `Difficulty`: Apprentice, Practitioner, or Expert.
-  - `Writeup Link`: Links to full writeup (if exists) or "N/A" for quick solves.
-- 
----
