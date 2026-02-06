@@ -1,16 +1,16 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-177-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--4-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-178-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--5-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 59 of 59
-- **Practitioner**: 110 of 171
+- **Practitioner**: 111 of 171
 - **Expert**: 8 of 40
 
 ## Categories Covered
-- **API Testing**: 3/5 lab
+- **API Testing**: 4/5 lab
 - **Information Disclosure**: 5/5 lab
 - **Business logic vulnerabilities**: 4/11 lab
 - **Authentication vulnerabilities**: 12/14 lab
@@ -237,4 +237,4 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 175 | 2026-02-4 | SQL injection |  Blind SQL injection with out-of-band interaction | Practitioner | N/A |
 | 176 | 2026-02-4 | SQL injection |  Blind SQL injection with out-of-band data exfiltration | Practitioner | N/A |
 | 177 | 2026-02-4 | SQL injection |  SQL injection with filter bypass via XML encoding | Practitioner | N/A |
-
+| 178 | 2026-02-5 | API Testing |  Exploiting server-side parameter pollution in a query string | Practitioner | N/A |
