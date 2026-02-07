@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-178-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--5-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-182-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--6-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 59 of 59
-- **Practitioner**: 111 of 171
+- **Practitioner**: 115 of 171
 - **Expert**: 8 of 40
 
 ## Categories Covered
@@ -40,6 +40,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **CORS**: 2/3 lab
 - **Web LLM attacks**: 2/4 lab
 - **Essential skills**: 2/2 lab
+- **Request smuggling**: 4/22 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -238,3 +239,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 176 | 2026-02-4 | SQL injection |  Blind SQL injection with out-of-band data exfiltration | Practitioner | N/A |
 | 177 | 2026-02-4 | SQL injection |  SQL injection with filter bypass via XML encoding | Practitioner | N/A |
 | 178 | 2026-02-5 | API Testing |  Exploiting server-side parameter pollution in a query string | Practitioner | N/A |
+| 179 | 2026-02-6 | Request smuggling |  HTTP request smuggling, confirming a CL.TE vulnerability via differential responses | Practitioner | N/A |
+| 180 | 2026-02-6 | Request smuggling |  HTTP request smuggling, confirming a TE.CL vulnerability via differential responses | Practitioner | N/A |
+| 181 | 2026-02-6 | Request smuggling |  Exploiting HTTP request smuggling to bypass front-end security controls, TE.CL vulnerability | Practitioner | N/A |
+| 182 | 2026-02-6 | Request smuggling |  Exploiting HTTP request smuggling to bypass front-end security controls, CL.TE vulnerability | Practitioner | N/A |
