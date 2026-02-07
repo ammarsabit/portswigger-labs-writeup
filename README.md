@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-182-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--6-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-186-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--7-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 59 of 59
-- **Practitioner**: 115 of 171
-- **Expert**: 8 of 40
+- **Practitioner**: 118 of 171
+- **Expert**: 9 of 40
 
 ## Categories Covered
 - **API Testing**: 4/5 lab
@@ -40,7 +40,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **CORS**: 2/3 lab
 - **Web LLM attacks**: 2/4 lab
 - **Essential skills**: 2/2 lab
-- **Request smuggling**: 4/22 lab
+- **Request smuggling**: 8/22 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -243,3 +243,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 180 | 2026-02-6 | Request smuggling |  HTTP request smuggling, confirming a TE.CL vulnerability via differential responses | Practitioner | N/A |
 | 181 | 2026-02-6 | Request smuggling |  Exploiting HTTP request smuggling to bypass front-end security controls, TE.CL vulnerability | Practitioner | N/A |
 | 182 | 2026-02-6 | Request smuggling |  Exploiting HTTP request smuggling to bypass front-end security controls, CL.TE vulnerability | Practitioner | N/A |
+| 183 | 2026-02-7 | Request smuggling |  Exploiting HTTP request smuggling to reveal front-end request rewriting | Practitioner | N/A |
+| 184 | 2026-02-7 | Request smuggling |  Exploiting HTTP request smuggling to capture other users' requests | Practitioner | N/A |
+| 185 | 2026-02-7 | Request smuggling |  Exploiting HTTP request smuggling to deliver reflected XSS | Practitioner | N/A |
+| 186 | 2026-02-7 | Request smuggling |  Exploiting HTTP request smuggling to perform web cache poisoning | Expert | N/A |
