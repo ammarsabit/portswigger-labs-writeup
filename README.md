@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-186-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--7-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-190-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--8-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Vulnerability-labs-70%-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 59 of 59
-- **Practitioner**: 118 of 171
-- **Expert**: 9 of 40
+- **Practitioner**: 121 of 171
+- **Expert**: 10 of 40
 
 ## Categories Covered
 - **API Testing**: 4/5 lab
@@ -40,7 +40,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **CORS**: 2/3 lab
 - **Web LLM attacks**: 2/4 lab
 - **Essential skills**: 2/2 lab
-- **Request smuggling**: 8/22 lab
+- **Request smuggling**: 12/22 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -246,4 +246,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 183 | 2026-02-7 | Request smuggling |  Exploiting HTTP request smuggling to reveal front-end request rewriting | Practitioner | N/A |
 | 184 | 2026-02-7 | Request smuggling |  Exploiting HTTP request smuggling to capture other users' requests | Practitioner | N/A |
 | 185 | 2026-02-7 | Request smuggling |  Exploiting HTTP request smuggling to deliver reflected XSS | Practitioner | N/A |
-| 186 | 2026-02-7 | Request smuggling |  Exploiting HTTP request smuggling to perform web cache poisoning | Expert | N/A |
+| 186 | 2026-02-7 | Request smuggling |  Exploiting HTTP request smuggling to perform web cache poisoning | Expert | [writeup](https://github.com/ammarsabit/portswigger-labs-writeup/tree/main/Request_smuggling/Exploiting_HTTP_request_smuggling_to_perform_web_cache_poisoning) |
+| 187 | 2026-02-8 | Request smuggling |  HTTP request smuggling, basic CL.TE vulnerability | Practitioner | N/A |
+| 188 | 2026-02-8 | Request smuggling |  HTTP request smuggling, basic TE.CL vulnerability | Practitioner | N/A |
+| 189 | 2026-02-8 | Request smuggling |  HTTP request smuggling, obfuscating the TE header | Practitioner | N/A |
+| 190 | 2026-02-8 | Request smuggling |  Exploiting HTTP request smuggling to perform web cache deception | Expert | N/A |
