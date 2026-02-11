@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-190-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--8-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-70%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-194-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--10-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-71%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 59 of 59
-- **Practitioner**: 121 of 171
+- **Practitioner**: 125 of 171
 - **Expert**: 10 of 40
 
 ## Categories Covered
@@ -40,7 +40,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **CORS**: 2/3 lab
 - **Web LLM attacks**: 2/4 lab
 - **Essential skills**: 2/2 lab
-- **Request smuggling**: 12/22 lab
+- **Request smuggling**: 16/22 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -251,3 +251,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 188 | 2026-02-8 | Request smuggling |  HTTP request smuggling, basic TE.CL vulnerability | Practitioner | N/A |
 | 189 | 2026-02-8 | Request smuggling |  HTTP request smuggling, obfuscating the TE header | Practitioner | N/A |
 | 190 | 2026-02-8 | Request smuggling |  Exploiting HTTP request smuggling to perform web cache deception | Expert | N/A |
+| 191 | 2026-02-10 | Request smuggling |  H2.CL request smuggling | Practitioner | N/A |
+| 192 | 2026-02-10 | Request smuggling |  Response queue poisoning via H2.TE request smuggling | Practitioner | N/A |
+| 193 | 2026-02-10 | Request smuggling |  HTTP/2 request smuggling via CRLF injection | Practitioner | N/A |
+| 194 | 2026-02-10 | Request smuggling |  HTTP/2 request splitting via CRLF injection | Practitioner | N/A |
