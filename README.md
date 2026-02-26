@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-196-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--11-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-72%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-200-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--26-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-74%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 59 of 59
-- **Practitioner**: 126 of 171
-- **Expert**: 11 of 40
+- **Practitioner**: 129 of 171
+- **Expert**: 12 of 40
 
 ## Categories Covered
 - **API Testing**: 4/5 lab
@@ -29,7 +29,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **WebSockets**: 1/3 lab
 - **GraphQL API vulnerabilities**: 5/5 lab
 - **Insecure deserialization**: 3/10 lab
-- **OAuth authentication**: 1/6 lab
+- **OAuth authentication**: 4/6 lab
 - **Web cache deception**: 5/5 lab
 - **Web cache poisoning**: 7/13 lab
 - **Prototype pollution**: 5/10 lab
@@ -40,7 +40,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **CORS**: 2/3 lab
 - **Web LLM attacks**: 2/4 lab
 - **Essential skills**: 2/2 lab
-- **Request smuggling**: 18/22 lab
+- **Request smuggling**: 19/22 lab
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -257,3 +257,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 194 | 2026-02-10 | Request smuggling |  HTTP/2 request splitting via CRLF injection | Practitioner | N/A |
 | 195 | 2026-02-11 | Request smuggling |  CL.0 request smuggling | Practitioner | N/A |
 | 196 | 2026-02-11 | Request smuggling |  Client-side desync | Expert | N/A |
+| 197 | 2026-02-17 | Request smuggling |  Bypassing access controls via HTTP/2 request tunnelling | Expert | N/A |
+| 198 | 2026-02-26 | OAuth authentication |  Forced OAuth profile linking | Practitioner | N/A |
+| 199 | 2026-02-26 | OAuth authentication |  OAuth account hijacking via redirect_uri | Practitioner | N/A |
+| 200 | 2026-02-26 | OAuth authentication |  Stealing OAuth access tokens via an open redirect | Practitioner | N/A |
