@@ -1,19 +1,19 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-200-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--26-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-74%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-206-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--01-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-76%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 59 of 59
-- **Practitioner**: 129 of 171
-- **Expert**: 12 of 40
+- **Practitioner**: 133 of 171
+- **Expert**: 14 of 40
 
 ## Categories Covered
 - **API Testing**: 4/5 lab
 - **Information Disclosure**: 5/5 lab
-- **Business logic vulnerabilities**: 4/11 lab
-- **Authentication vulnerabilities**: 12/14 lab
+- **Business logic vulnerabilities**: 5/11 lab
+- **Authentication vulnerabilities**: 14/14 lab
 - **Server-side template injection**: 5/7 lab
 - **Path traversal**: 6/6 lab
 - **File upload vulnerabilities**: 7/7 lab
@@ -22,14 +22,14 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Race conditions**: 2/6 lab
 - **Access control**: 13/13 lab
 - **OS command injection**: 5/5 lab
-- **Server-side request forgery (SSRF)**: 4/7 lab
+- **Server-side request forgery (SSRF)**: 6/7 lab
 - **JWT attacks**: 8/8 lab
 - **Cross-site request forgery (CSRF)**: 8/12 lab
 - **DOM-based vulnerabilities**: 4/7 lab
 - **WebSockets**: 1/3 lab
 - **GraphQL API vulnerabilities**: 5/5 lab
 - **Insecure deserialization**: 3/10 lab
-- **OAuth authentication**: 4/6 lab
+- **OAuth authentication**: 5/6 lab
 - **Web cache deception**: 5/5 lab
 - **Web cache poisoning**: 7/13 lab
 - **Prototype pollution**: 5/10 lab
@@ -261,3 +261,9 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 198 | 2026-02-26 | OAuth authentication |  Forced OAuth profile linking | Practitioner | N/A |
 | 199 | 2026-02-26 | OAuth authentication |  OAuth account hijacking via redirect_uri | Practitioner | N/A |
 | 200 | 2026-02-26 | OAuth authentication |  Stealing OAuth access tokens via an open redirect | Practitioner | N/A |
+| 201 | 2026-02-27 | OAuth authentication |  SSRF via OpenID dynamic client registration | Practitioner | N/A |
+| 202 | 2026-02-27 | Server-side request forgery (SSRF) |  SSRF with filter bypass via open redirection vulnerability | Practitioner | N/A |
+| 203 | 2026-02-27 | Server-side request forgery (SSRF) |  Blind SSRF with Shellshock exploitation | Expert | N/A |
+| 204 | 2026-03-01 | Authentication vulnerabilities |  2FA broken logic | Practitioner | N/A |
+| 205 | 2026-03-01 | Business logic vulnerabilities |  Insufficient workflow validation | Practitioner | N/A |
+| 206 | 2026-03-01 | Authentication vulnerabilities |  2FA bypass using a brute-force attack | Expert | N/A |
