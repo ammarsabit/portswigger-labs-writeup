@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-206-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--01-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-76%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-210-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--02-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-77%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 59 of 59
-- **Practitioner**: 133 of 171
-- **Expert**: 14 of 40
+- **Practitioner**: 136 of 171
+- **Expert**: 15 of 40
 
 ## Categories Covered
 - **API Testing**: 4/5 lab
@@ -19,7 +19,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **File upload vulnerabilities**: 7/7 lab
 - **Cross-site scripting**: 18/30 lab
 - **SQL injection**: 18/18 lab
-- **Race conditions**: 2/6 lab
+- **Race conditions**: 6/6 lab
 - **Access control**: 13/13 lab
 - **OS command injection**: 5/5 lab
 - **Server-side request forgery (SSRF)**: 6/7 lab
@@ -267,3 +267,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 204 | 2026-03-01 | Authentication vulnerabilities |  2FA broken logic | Practitioner | N/A |
 | 205 | 2026-03-01 | Business logic vulnerabilities |  Insufficient workflow validation | Practitioner | N/A |
 | 206 | 2026-03-01 | Authentication vulnerabilities |  2FA bypass using a brute-force attack | Expert | N/A |
+| 207 | 2026-03-02 | Race conditions |  Multi-endpoint race conditions | Practitioner | N/A |
+| 208 | 2026-03-02 | Race conditions |  Single-endpoint race conditions | Practitioner | N/A |
+| 209 | 2026-03-02 | Race conditions |  Exploiting time-sensitive vulnerabilities | Practitioner | N/A |
+| 210 | 2026-03-02 | Race conditions |  Partial construction race conditions | Expert | N/A |
