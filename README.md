@@ -1,13 +1,13 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-213-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--03-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-78%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-217-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--04-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-80%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 59 of 59
-- **Practitioner**: 139 of 171
-- **Expert**: 15 of 40
+- **Practitioner**: 140 of 171
+- **Expert**: 18 of 40
 
 ## Categories Covered
 - **API Testing**: 4/5 lab
@@ -22,10 +22,10 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Race conditions**: 6/6 lab
 - **Access control**: 13/13 lab
 - **OS command injection**: 5/5 lab
-- **Server-side request forgery (SSRF)**: 6/7 lab
+- **Server-side request forgery (SSRF)**: 7/7 lab
 - **JWT attacks**: 8/8 lab
 - **Cross-site request forgery (CSRF)**: 8/12 lab
-- **DOM-based vulnerabilities**: 4/7 lab
+- **DOM-based vulnerabilities**: 7/7 lab
 - **WebSockets**: 3/3 lab
 - **GraphQL API vulnerabilities**: 5/5 lab
 - **Insecure deserialization**: 3/10 lab
@@ -274,3 +274,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 211 | 2026-03-03 | WebSockets |  Cross-site WebSocket hijacking | Practitioner | N/A |
 | 212 | 2026-03-03 | WebSockets |  Manipulating the WebSocket handshake to exploit vulnerabilities | Practitioner | N/A |
 | 213 | 2026-03-03 | Cross-site scripting |  Reflected XSS in canonical link tag | Practitioner | N/A |
+| 214 | 2026-03-04 | Server-side request forgery (SSRF) |  Reflected XSS in canonical link tag | Expert | N/A |
+| 215 | 2026-03-04 | DOM-based vulnerabilities |  DOM-based cookie manipulation | Practitioner | N/A |
+| 216 | 2026-03-04 | DOM-based vulnerabilities |  Exploiting DOM clobbering to enable XSS | Expert | N/A |
+| 217 | 2026-03-04 | DOM-based vulnerabilities |  Clobbering DOM attributes to bypass HTML filters | Expert | N/A |
