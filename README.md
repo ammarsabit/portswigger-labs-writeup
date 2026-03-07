@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-217-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--04-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-80%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-222-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--06-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-82%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 59 of 59
-- **Practitioner**: 140 of 171
+- **Practitioner**: 145 of 171
 - **Expert**: 18 of 40
 
 ## Categories Covered
@@ -17,14 +17,14 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Server-side template injection**: 5/7 lab
 - **Path traversal**: 6/6 lab
 - **File upload vulnerabilities**: 7/7 lab
-- **Cross-site scripting**: 19/30 lab
+- **Cross-site scripting**: 23/30 lab
 - **SQL injection**: 18/18 lab
 - **Race conditions**: 6/6 lab
 - **Access control**: 13/13 lab
 - **OS command injection**: 5/5 lab
 - **Server-side request forgery (SSRF)**: 7/7 lab
 - **JWT attacks**: 8/8 lab
-- **Cross-site request forgery (CSRF)**: 8/12 lab
+- **Cross-site request forgery (CSRF)**: 9/12 lab
 - **DOM-based vulnerabilities**: 7/7 lab
 - **WebSockets**: 3/3 lab
 - **GraphQL API vulnerabilities**: 5/5 lab
@@ -278,3 +278,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 215 | 2026-03-04 | DOM-based vulnerabilities |  DOM-based cookie manipulation | Practitioner | N/A |
 | 216 | 2026-03-04 | DOM-based vulnerabilities |  Exploiting DOM clobbering to enable XSS | Expert | N/A |
 | 217 | 2026-03-04 | DOM-based vulnerabilities |  Clobbering DOM attributes to bypass HTML filters | Expert | N/A |
+| 218 | 2026-03-06 | Cross-site scripting |  Reflected XSS into a JavaScript string with single quote and backslash escaped | Practitioner | N/A |
+| 219 | 2026-03-06 | Cross-site scripting |  Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped | Practitioner | N/A |
+| 220 | 2026-03-06 | Cross-site scripting |  Reflected XSS into a template literal with angle brackets, single, double quotes, backslash and backticks Unicode-escaped | Practitioner | N/A |
+| 221 | 2026-03-06 | Cross-site scripting |  Reflected DOM XSS | Practitioner | N/A |
+| 222 | 2026-03-06 | Cross-site request forgery (CSRF) |  SameSite Strict bypass via client-side redirect | Practitioner | N/A |
