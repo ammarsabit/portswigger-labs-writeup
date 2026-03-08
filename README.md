@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-222-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--06-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-82%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-224-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--07-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-82%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 59 of 59
-- **Practitioner**: 145 of 171
+- **Practitioner**: 147 of 171
 - **Expert**: 18 of 40
 
 ## Categories Covered
@@ -24,7 +24,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **OS command injection**: 5/5 lab
 - **Server-side request forgery (SSRF)**: 7/7 lab
 - **JWT attacks**: 8/8 lab
-- **Cross-site request forgery (CSRF)**: 9/12 lab
+- **Cross-site request forgery (CSRF)**: 11/12 lab
 - **DOM-based vulnerabilities**: 7/7 lab
 - **WebSockets**: 3/3 lab
 - **GraphQL API vulnerabilities**: 5/5 lab
@@ -283,3 +283,5 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 220 | 2026-03-06 | Cross-site scripting |  Reflected XSS into a template literal with angle brackets, single, double quotes, backslash and backticks Unicode-escaped | Practitioner | N/A |
 | 221 | 2026-03-06 | Cross-site scripting |  Reflected DOM XSS | Practitioner | N/A |
 | 222 | 2026-03-06 | Cross-site request forgery (CSRF) |  SameSite Strict bypass via client-side redirect | Practitioner | N/A |
+| 223 | 2026-03-07 | Cross-site request forgery (CSRF) |  CSRF where token is tied to non-session cookie | Practitioner | N/A |
+| 224 | 2026-03-07 | Cross-site request forgery (CSRF) |  CSRF where token is duplicated in cookie | Practitioner | N/A |
