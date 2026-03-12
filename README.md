@@ -1,12 +1,12 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-224-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--07-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-82%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-228-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--09-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-84%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 59 of 59
-- **Practitioner**: 147 of 171
+- **Practitioner**: 151 of 171
 - **Expert**: 18 of 40
 
 ## Categories Covered
@@ -28,10 +28,10 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **DOM-based vulnerabilities**: 7/7 lab
 - **WebSockets**: 3/3 lab
 - **GraphQL API vulnerabilities**: 5/5 lab
-- **Insecure deserialization**: 3/10 lab
+- **Insecure deserialization**: 4/10 lab
 - **OAuth authentication**: 5/6 lab
 - **Web cache deception**: 5/5 lab
-- **Web cache poisoning**: 7/13 lab
+- **Web cache poisoning**: 10/13 lab
 - **Prototype pollution**: 5/10 lab
 - **HTTP Host header attacks**: 6/7 lab
 - **XXE injection**: 9/9 lab
@@ -285,3 +285,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 222 | 2026-03-06 | Cross-site request forgery (CSRF) |  SameSite Strict bypass via client-side redirect | Practitioner | N/A |
 | 223 | 2026-03-07 | Cross-site request forgery (CSRF) |  CSRF where token is tied to non-session cookie | Practitioner | N/A |
 | 224 | 2026-03-07 | Cross-site request forgery (CSRF) |  CSRF where token is duplicated in cookie | Practitioner | N/A |
+| 225 | 2026-03-09 | Insecure deserialization |  Arbitrary object injection in PHP | Practitioner | N/A |
+| 226 | 2026-03-09 | Web cache poisoning |  Parameter cloaking | Practitioner | N/A |
+| 227 | 2026-03-09 | Web cache poisoning |  Web cache poisoning via a fat GET request | Practitioner | N/A |
+| 228 | 2026-03-09 | Web cache poisoning |  URL normalization | Practitioner | N/A |
