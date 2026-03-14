@@ -1,18 +1,18 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-229-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--12-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-84%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-232-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--13-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-85%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 59 of 59
-- **Practitioner**: 152 of 171
+- **Practitioner**: 155 of 171
 - **Expert**: 18 of 40
 
 ## Categories Covered
 - **API Testing**: 4/5 lab
 - **Information Disclosure**: 5/5 lab
-- **Business logic vulnerabilities**: 5/11 lab
+- **Business logic vulnerabilities**: 6/11 lab
 - **Authentication vulnerabilities**: 14/14 lab
 - **Server-side template injection**: 5/7 lab
 - **Path traversal**: 6/6 lab
@@ -28,7 +28,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **DOM-based vulnerabilities**: 7/7 lab
 - **WebSockets**: 3/3 lab
 - **GraphQL API vulnerabilities**: 5/5 lab
-- **Insecure deserialization**: 5/10 lab
+- **Insecure deserialization**: 7/10 lab
 - **OAuth authentication**: 5/6 lab
 - **Web cache deception**: 5/5 lab
 - **Web cache poisoning**: 10/13 lab
@@ -290,3 +290,6 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 227 | 2026-03-09 | Web cache poisoning |  Web cache poisoning via a fat GET request | Practitioner | N/A |
 | 228 | 2026-03-09 | Web cache poisoning |  URL normalization | Practitioner | N/A |
 | 229 | 2026-03-12 | Insecure deserialization |  Exploiting Java deserialization with Apache Commons | Practitioner | N/A |
+| 230 | 2026-03-13 | Insecure deserialization |  Exploiting PHP deserialization with a pre-built gadget chain | Practitioner | N/A |
+| 231 | 2026-03-13 | Insecure deserialization |  Exploiting Ruby deserialization using a documented gadget chain | Practitioner | N/A |
+| 232 | 2026-03-13 | Business logic vulnerabilities |  Weak isolation on dual-use endpoint | Practitioner | N/A |
