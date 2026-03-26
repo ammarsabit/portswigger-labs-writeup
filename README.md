@@ -1,20 +1,20 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-232-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--13-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-85%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-238-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--14-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-88%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 59 of 59
-- **Practitioner**: 155 of 171
-- **Expert**: 18 of 40
+- **Practitioner**: 160 of 172
+- **Expert**: 19 of 39
 
 ## Categories Covered
 - **API Testing**: 4/5 lab
 - **Information Disclosure**: 5/5 lab
 - **Business logic vulnerabilities**: 6/11 lab
 - **Authentication vulnerabilities**: 14/14 lab
-- **Server-side template injection**: 5/7 lab
+- **Server-side template injection**: 6/7 lab
 - **Path traversal**: 6/6 lab
 - **File upload vulnerabilities**: 7/7 lab
 - **Cross-site scripting**: 23/30 lab
@@ -32,7 +32,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **OAuth authentication**: 5/6 lab
 - **Web cache deception**: 5/5 lab
 - **Web cache poisoning**: 10/13 lab
-- **Prototype pollution**: 5/10 lab
+- **Prototype pollution**: 10/10 lab
 - **HTTP Host header attacks**: 6/7 lab
 - **XXE injection**: 9/9 lab
 - **Clickjacking**: 3/5 lab
@@ -293,3 +293,9 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 230 | 2026-03-13 | Insecure deserialization |  Exploiting PHP deserialization with a pre-built gadget chain | Practitioner | N/A |
 | 231 | 2026-03-13 | Insecure deserialization |  Exploiting Ruby deserialization using a documented gadget chain | Practitioner | N/A |
 | 232 | 2026-03-13 | Business logic vulnerabilities |  Weak isolation on dual-use endpoint | Practitioner | N/A |
+| 233 | 2026-03-14 | Prototype pollution |  DOM XSS via client-side prototype pollution | Practitioner | N/A |
+| 234 | 2026-03-14 | Prototype pollution |  DOM XSS via an alternative prototype pollution vector | Practitioner | N/A |
+| 235 | 2026-03-14 | Prototype pollution |  Client-side prototype pollution via flawed sanitization | Practitioner | N/A |
+| 236 | 2026-03-14 | Prototype pollution |  Client-side prototype pollution in third-party libraries | Practitioner | N/A |
+| 237 | 2026-03-14 | Prototype pollution |  Client-side prototype pollution via browser API | Practitioner | N/A |
+| 238 | 2026-03-14 | Server-side template injection |  Server-side template injection in a sandboxed environment | Expert | N/A |
