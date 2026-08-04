@@ -1,6 +1,6 @@
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-238-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--14-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-88%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-238-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--4-yellow) ![Level](https://img.shields.io/badge/Level-APPRENTICE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-88%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -65,7 +65,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 1  | 2025-09-26 | API Testing    | Exploiting an API endpoint using documentation | Apprentice | N/A |
 | 2  | 2025-09-26 | API Testing    | Finding and exploiting an unused API endpoint | Practitioner | N/A |
 | 3  | 2025-09-27 | API Testing    | Exploiting a mass assignment vulnerability | Practitioner | N/A |
-| 4  | 2025-09-28 | Information Disclosure    | Information disclosure in error messages | Apprentice | N/A |
+| 4  | 2025-09-28 | Information Disclosure    | Information disclosure in error messages | Apprentice | [writeup](https://github.com/ammarsabit/portswigger-labs-writeup/tree/main/Information%20disclosure/Information%20disclosure%20in%20error%20messages) |
 | 5  | 2025-09-28 | Business logic vulnerabilities | Excessive trust in client-side controls | Apprentice | N/A |
 | 6  | 2025-09-30 | Business logic vulnerabilities | High-level logic vulnerability | Apprentice | N/A |
 | 7  | 2025-09-30 | Authentication vulnerabilities | Username enumeration via different responses | Apprentice | N/A |
@@ -74,8 +74,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 10 | 2025-09-30 | Authentication vulnerabilities | Password reset broken logic | Apprentice | N/A |
 | 11 | 2025-09-30 | Authentication vulnerabilities | Password brute-force via password change | Practitioner | N/A |
 | 12 | 2025-09-30 | Information disclosure | Authentication bypass via information disclosure | Apprentice | N/A |
-| 13 | 2025-09-30 | Information disclosure | Information disclosure on debug page | Apprentice | N/A |
-| 14 | 2025-09-30 | Information disclosure | Source code disclosure via backup files | Apprentice | N/A |
+| 13 | 2025-09-30 | Information disclosure | Information disclosure on debug page | Apprentice | [writeup](https://github.com/ammarsabit/portswigger-labs-writeup/tree/main/Information%20disclosure/Information%20disclosure%20on%20debug%20page) |
+| 14 | 2025-09-30 | Information disclosure | Source code disclosure via backup files | Apprentice | [writeup](https://github.com/ammarsabit/portswigger-labs-writeup/tree/main/Information%20disclosure/Source%20code%20disclosure%20via%20backup%20files) |
 | 15 | 2025-09-30 | Information disclosure | Information disclosure in version control history | Apprentice | N/A |
 | 16 | 2025-09-30 | Server-side template injection | Basic server-side template injection | Practitioner | [writeup](https://github.com/ammarsabit/portswigger-labs-writeup/blob/main/ssti/basic-server-side-template-injection.md) |
 | 17 | 2025-09-30 | Server-side template injection | Basic server-side template injection (code context) | Practitioner | N/A |
