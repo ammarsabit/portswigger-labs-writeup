@@ -10,6 +10,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Expert**: 19 of 39
 
 ## Categories Covered
+
 - **API Testing**: 4/5 lab
 - **Information Disclosure**: 5/5 lab
 - **Business logic vulnerabilities**: 6/11 lab
@@ -299,3 +300,4 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 236 | 2026-03-14 | Prototype pollution |  Client-side prototype pollution in third-party libraries | Practitioner | N/A |
 | 237 | 2026-03-14 | Prototype pollution |  Client-side prototype pollution via browser API | Practitioner | N/A |
 | 238 | 2026-03-14 | Server-side template injection |  Server-side template injection in a sandboxed environment | Expert | N/A |
+| 239 | 2026-03-12 | Server-side template injection |  Server-side template injection in a sandboxed environment | Expert | N/A |
